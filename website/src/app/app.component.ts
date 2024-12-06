@@ -5,7 +5,12 @@ import { RouterOutlet } from '@angular/router';
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet],
-  template: `<header> SCARLETT </header>`,
+  template: `<header> SCARLETT JAY CLARK <br>
+                      (she/her)
+             </header>
+             <button> Programmer </button> <br>
+             <button> Mathematician </button> <br>
+             <button> Tabletop Gamer </button> <br>`,
   styleUrl: './app.component.css'
 })
 export class AppComponent {
